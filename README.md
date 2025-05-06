@@ -68,13 +68,11 @@ This is a Java-based GUI application that simulates an airline management system
 
 10. Run the application starting from Login.java.
 
-#  Login Credentials
-Ensure the login table in your MySQL DB has valid test credentials (username and password).
+#  Login Credentials and Database Script
+*Ensure the login table in your MySQL DB has valid test credentials (username and password).*
 
-Database Setup (SQL Script)
-sql
-Copy
-Edit
+## Database Setup (SQL Script)
+
 CREATE DATABASE airline;
 USE airline;
 
